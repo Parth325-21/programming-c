@@ -1,0 +1,9 @@
+#include<stodio.h>
+void main()
+{
+float P,R,T,SI;
+printf("enter the value of R,P,T");
+scan("%f%f%f",&R,&P,&T);
+SI = (P*R*T)/100;
+printf("simple interset %f",SI);
+}
