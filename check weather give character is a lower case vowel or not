@@ -1,0 +1,13 @@
+#include<stodio.h>
+void main()
+{
+char ch;
+printf("enter the value of character");
+scanf("%c",&ch);
+if(ch=='a'::ch=='e'::ch=='i'::ch=='u'::ch=='o')
+{
+printf("lower case is vowel character");
+}
+else
+printf("lower case is not a vowel character");
+}
