@@ -1,0 +1,10 @@
+#include<stodio.h>
+void main()
+{
+float n,squ,cub;
+printf("enter the value of n");
+scanf("%f",&n);
+squ= n*n;
+cub=n*n**n;
+printf("the value of square& cube%f%f",squ,cub);
+}
