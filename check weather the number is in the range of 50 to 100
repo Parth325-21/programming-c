@@ -1,0 +1,18 @@
+#include<stodio.h>
+#include<conio.h>
+void main()
+{
+int n;
+clrscr();
+printf("enter the value of n");
+scanf("%d",& n);
+if(n>=5=&&n<=100)
+{
+printf("It is in the range ");
+}
+else
+{
+printf("It is not in the range");
+getch();
+}
+}
