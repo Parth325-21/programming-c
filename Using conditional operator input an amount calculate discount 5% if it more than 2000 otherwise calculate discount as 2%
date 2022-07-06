@@ -1,0 +1,12 @@
+#include<stodio.h>
+#include<conio.h>
+void main()
+{
+int S;
+clrscr();
+printf("enter the sale of the salesman");
+scanf("%d",& S);
+floatl= S>2000?S*0.05:S*0.02;
+prnitf("the discont is given %f",l);
+getch();
+}
