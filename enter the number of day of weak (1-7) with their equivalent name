@@ -1,0 +1,57 @@
+#include<stodio.h>
+#include<conio.h>
+void main()
+{
+int nod;
+clrscr();
+printf("enter the value of nod");
+scanf("%d",& nod);
+if(nod==1)
+{
+printf("Today is Monday");
+}
+else if(nod==2)
+{
+printf("Today is Tuesday");
+}
+else if(nod==3)
+{
+printf("Today is Wednesday");
+}
+else if(nod==4)
+{
+printf("Today is Thursday");
+}
+else if(nod==5)
+{
+printf("Today is Friday");
+}
+else if(nod==6)
+{
+printf("Today is Saturday");
+}
+else if(nod==7)
+{
+printf("Today is Sunday");
+}
+else
+{
+printf("Not Valid number of Day");
+getch();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
