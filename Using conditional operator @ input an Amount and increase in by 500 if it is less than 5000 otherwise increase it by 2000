@@ -1,0 +1,12 @@
+#include<stodio.h>
+#include<coinio.h>
+void main()
+{
+int A,B;
+clrscr();
+printf("enter the value of A");
+scanf("%d",& A);
+A=A>5000?A+2000:A+500;
+printf("the value of Amount%d",& A);
+getch();
+}
