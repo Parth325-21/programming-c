@@ -1,0 +1,20 @@
+#include<stodio.h>
+#include<conio.h>
+void main()
+{
+float P; char grade;
+clrscr();
+printf("enter the value of P");
+scan("%f",& P);
+if(P>90)
+{
+grade 'A';
+printf("grade%c",grade);
+}
+else
+{
+grade='B'
+printf("grade%c",grade);
+getch();
+}
+}
