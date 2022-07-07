@@ -1,0 +1,34 @@
+#include<stodio.h>
+#include<conio.h>
+void main()
+{
+int A,B;char oper;float l;
+clrscr();
+printf("enter the values of A,B & oper");
+scanf("%d%d",& A,& B);
+if(oper==*)
+{
+l=A*B;
+printf("the multiplicational of operator %f",l);
+}
+else if (oper==-)
+{
+l=A-B;
+printf("the subtraction value of operator %f",l);
+}
+elsre if (oper==+)
+{
+l=A+B;
+printf("the addition value of operator %f",l);
+}
+else if (oper==/)
+{
+l=A/B;
+printf("the division value of operator %f",l);
+}
+else
+{
+printf("operator is not valid");
+getch();
+}
+}
