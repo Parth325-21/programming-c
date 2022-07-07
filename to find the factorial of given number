@@ -1,0 +1,16 @@
+#include<stodio.h>
+#include<conio.h>
+void main()
+{
+int num,i,f=1;
+clrscr();
+printf("enter the number");
+scanf("%d",& num);
+for(i=1;1<=num;i++)
+{
+f=f*i;
+}
+printf("factorial=%d",f);
+getch();
+}
+}
