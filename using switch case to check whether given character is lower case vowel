@@ -1,0 +1,30 @@
+#include<stodio.h>
+#include<conio.h>
+void main ()
+{
+char vowel;
+clrscr();
+printf("enter the character");
+scanf("%c"'& vowel);
+switch(vowel)
+{
+case'a':
+printf("It is lower case vowel");
+break;
+case'i':
+printf("It is a lower case vowel");
+break;
+case'e':
+printf("It is loer case vowel");
+break;
+case'o':
+printf("It is lower case vowel");
+break;
+case'u':
+printf("It is lower case vowel");
+break;
+default:
+printf("It is not lower case vowel");
+getch();
+}
+}
