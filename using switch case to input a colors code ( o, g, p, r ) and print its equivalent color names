@@ -1,0 +1,25 @@
+#include<stodio.h>
+#include<conio.h>
+void main ()
+{
+char color;
+clrscr();
+printf("enter the color code");
+scan("%c",& color)
+switch(color)
+case 'O':
+printf("Orange");
+break;
+case 'G':
+printf("Green");
+break;
+case 'P':
+printf("Pink");
+break;
+case 'R':
+printf("Red");
+break;
+default:
+printf("color code is not found");
+getch();
+}
