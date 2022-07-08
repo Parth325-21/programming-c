@@ -1,0 +1,30 @@
+#include<stodio.h>
+#include<conio.h>
+void main()
+{
+float P;char grade;
+clrscr();
+printf("enter the value of percentage");
+scanf("%f",& P);
+if(P>90)
+{
+grade='A';
+printf("the grade is given by %c",grade);
+}
+else if(P>=70 && P<=90)
+{
+grade='B';
+printf("grade is given by %c",grade);
+}
+else if(P>=50 && P<=70)
+{
+grade='C';
+printf("grade is given by %c",grade);
+}
+else if(P<=50)
+{
+grade='D';
+printf("grade is given by %c",grade);
+getch();
+}
+}
