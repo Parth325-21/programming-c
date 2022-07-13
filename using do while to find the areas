@@ -1,0 +1,43 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n,s,choice,float A,l,b,r;
+clrscr();
+printf("enter the choice");
+scanf("%d",& n);
+do
+{
+printf("\t\t Area menu\n");
+printf("1: Circle Area\n");
+printf("2:Rectangle Area\n");
+printf("3:Square Area\n");
+printf("enter the choice");
+scanf("%d",& n);
+switch(choice)
+{
+case 1:
+printf("enter the value of radius");
+scanf("%f",& r);
+A=3.14*r*r;
+printf("Area of circle%f",A)
+break;
+case 2:
+printf("enter the value of l & b");
+scanf("%f%f",&l,&b);
+A=l*b;
+printf("Area of rectangle%f",A);
+break;
+case 3:
+printf("enter the value side");
+scanf("%d",&s);
+A=s*s;
+printf("Area of square%f",A);
+break;
+default:
+printf("Choice is not found");
+}
+}
+while(choice>=1 && choice<=3);
+getch();
+}
