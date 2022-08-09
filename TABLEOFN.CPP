@@ -5,10 +5,11 @@ void main()
 int num,i;
 clrscr();
 printf("enter the number");
-scanf("%d",& num);
-for(i=0;i<=50;i+=5)
+scanf("%d",&num);
+for(i=1;i<11;i++)
 {
-printf("%d/t",num*i);
-getch();
+printf("%d\t",num*i);
+
 }
+getch();
 }
