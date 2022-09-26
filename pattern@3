@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int i,j;
+for(i=65;i<=80;i++)
+{
+ a= 65;
+for(j=65;j<=i;j++)
+{
+printf("%c",a);
+a++;
+}
+printf("/n");
+}
+getch();
+}
